@@ -14,9 +14,9 @@ console.log('hello');
 var connection = mysql.createConnection({
   host     : "localhost",
   user     : "root",
-  password : "Rdsaccount#1",
+  password : "somepass",
   port     : "3306",
-  database : "tseproj"
+  database : "databasename"
   });
 connection.connect(function(err) {
   if (err) {
@@ -49,13 +49,13 @@ app.post('/forgotpass', function (req, res) {
             var transporter = nodemailer.createTransport({
               service: 'gmail',
               auth: {
-                user: 'trailacc1140',
-                pass: 'Trailacc1140account#1',
+                user: 'gmailaccount', //username and password for gmail account
+                pass: 'password for account',
               }
             });
       
             var mailOptions = {
-              from: 'trialacc1140@gmail.com',
+              from: 'abc@gmail.com', // some gmail
               to: fpmail,
               subject: 'created a new password',
               text: 'Password : '+str
