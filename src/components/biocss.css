@@ -1,0 +1,36 @@
+.avatar-img{
+    height: 300px;
+    padding-top: 9em;
+    padding-left: 905px;
+    Align-Items: center;
+    /* Justify-Content: centre; */
+}
+.nam{
+    text-align: center;
+}
+.background{
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.para{
+    text-align: center;
+    font-size: large;
+    margin-left: 42px;
+}
+.twitter{
+    padding-left: 1500px;
+}
+.gmail{
+    padding-left: 1950px;
+    margin-top: -80px;
+}
+.github{
+    padding-left: 2300px;
+    margin-top: -105px;
+}
+.para{
+    width:60%;
+    padding-left: 360px;
+}
